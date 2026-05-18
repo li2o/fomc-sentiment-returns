@@ -9,6 +9,8 @@ lxml==6.0.2
 playwright==1.58.0
 numpy==2.2.6
 pdfplumber
+openpyxl
+yfinance
 
 # LLM / NLP analysis
 # These packages depend heavily on hardware (CPU vs GPU) and CUDA version.
