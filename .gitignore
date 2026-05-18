@@ -1,0 +1,30 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Tool caches
+.mypy_cache/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Editor / OS
+*.swp
+*.swo
+.DS_Store
+
+# Analysis outputs
+llm_analysis/outputs/
+llm_analysis/logs/
+
+# Local model caches (if created inside workspace)
+models/
+
+# Restricted/private data not suitable for public redistribution
+data/metadata/bloomberg_economic_calendar.csv
+data/market/fomc_bloomberg_events.csv
+data/private/
+data/external_restricted/
+tmp_*.ps1
