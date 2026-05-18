@@ -3,7 +3,7 @@
 This repository contains the code and data for the bachelor's thesis:
 
 > **"FOMC Communication Sentiment and Financial Market Returns"**  
-> Lionel Zaugg, University of St. Gallen (HSG), 2025
+> Lionel Zaugg, University of St. Gallen (HSG), 2026
 
 The thesis measures whether the tone of Federal Reserve communication — as classified sentence-by-sentence by [CentralBankRoBERTa](https://huggingface.co/Moritz-Pfeifer) — predicts returns on the S&P 500, two-year Treasury futures, and Bitcoin across horizons of 0–9 calendar days.
 
