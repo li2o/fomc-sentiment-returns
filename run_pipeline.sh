@@ -32,7 +32,15 @@
 
 set -euo pipefail
 
-PYTHON="${PYTHON:-.venv/Scripts/python.exe}"
+# Auto-detect virtual-environment Python path (Windows vs macOS/Linux).
+# Override by setting PYTHON=/path/to/python before calling this script.
+if [ -z "${PYTHON:-}" ]; then
+  if [ -f ".venv/Scripts/python.exe" ]; then
+    PYTHON=".venv/Scripts/python.exe"   # Windows
+  else
+    PYTHON=".venv/bin/python"           # macOS / Linux
+  fi
+fi
 RSCRIPT="${RSCRIPT:-Rscript}"
 START_YEAR="${START_YEAR:-2012}"
 END_YEAR="${END_YEAR:-$(date +%Y)}"

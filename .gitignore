@@ -22,6 +22,11 @@ llm_analysis/logs/
 # Local model caches (if created inside workspace)
 models/
 
+# Third-party market data — not redistributable
+# Fetch these yourself; see README "Data availability" section.
+data/market/spx_yahoo_1d.csv
+data/market/zt_yahoo_1d.csv
+
 # Restricted/private data not suitable for public redistribution
 data/metadata/bloomberg_economic_calendar.csv
 data/market/fomc_bloomberg_events.csv
