@@ -2,7 +2,9 @@
 
 This repository contains the code and data for the bachelor's thesis:
 
-> **"FOMC Communication Sentiment and Financial Market Returns"**  
+> **"Federal Reserve Communication and Financial Market
+Reactions:
+Evidence from Agent-Specific Sentiment in FOMC Documents"**  
 > Lionel Zaugg, University of St. Gallen (HSG), 2026
 
 The thesis examines whether agent-specific sentiment in Federal Reserve communication is associated with subsequent returns on the S&P 500, two-year Treasury futures, and Bitcoin across horizons of 0–9 calendar days. Sentiment is measured sentence-by-sentence using [CentralBankRoBERTa](https://huggingface.co/Moritz-Pfeifer), a RoBERTa model fine-tuned on central bank texts.
